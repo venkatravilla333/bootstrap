@@ -1,0 +1,271 @@
+
+
+                                          Bootstrap Content
+                                          -----------------
+
+
+1. What is Bootstrap
+   -----------------
+
+Bootstrap is a css framework, It contains pre-defined css styles and some functionality.
+
+By using bootstrap we can apply styles to an element easily.
+
+This is meant to design responsive websites.
+
+Writting of styles to an elements will be fast.
+
+Testing of styles will be fast.
+
+
+
+2. Color classes
+   -------------
+
+primary   => blue color
+
+success   => green color
+
+warning   => yellow color
+
+danger    => red color
+
+info      => cyan color
+
+dark      => dark gray color
+
+secondary => mid gray color
+
+muted     => mid gray color
+
+light     => light gray color
+
+white     => white color
+
+
+
+
+
+For taxt
+--------
+text-colorclass
+
+For background
+--------------
+bg-colorclass
+
+For border
+----------
+border-colorclass
+
+
+
+3.Text classes
+  ------------
+
+Bootstrap 5 Default Settings:
+
+Bootstrap 5 uses a default font-size of 1rem (16px by default), and its line-height is 1.5.
+
+In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+
+1)alignment 
+-----------
+text-start
+text-center
+text-end
+
+2)decoration
+------------
+text-decoration-underline
+text-decoration-line-through
+text-decoration-none
+
+3)transform
+-----------
+text-lowercase
+text-uppercase
+text-capitalize
+
+4)font-size
+-----------
+heigher to lower fontsize
+
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+fs-6
+
+5)Font weight
+-------------
+
+fw-bold
+fw-bolder
+fw-semibold
+fw-medium
+fw-normal
+fw-light
+fw-lighter
+
+6)Font style
+------------
+fst-italic
+fst-normal
+
+7)line-height
+-------------
+lh-1.5 (default)
+lh-1
+lh-sm
+lh-lg
+
+lh-1.5 (default): 1.5 Balanced line spacing, ideal for body text
+lh-1	        : 1 Compact text, minimal spacing, space-saving
+lh-sm	        : 1.25 Slightly compact, optimized for smaller text sizes
+lh-lg	        : 2 Extra spacing for readability, great for headings
+
+8)text-break
+------------	
+
+Prevents long text from breaking layout
+
+9)text-wrap:
+------------
+
+Wrap text with a .text-wrap class. I can not wrap single word.
+
+text-break : Forces long words or continuous strings to break within the container to avoid overflow.
+text-wrap : Allows normal text wrapping (default); can be paired with text-nowrap to prevent wrapping.
+
+
+**opacity-100/75/50/25/0**
+--------------------------
+
+<div class="text-primary text-opacity-25">This is 25% opacity primary text</div>
+
+**emphasis**
+------------
+
+<p class="text-primary">.text-primary</p>
+<p class="text-primary-emphasis">.text-primary-emphasis</p>
+
+
+
+4.Background classes
+  ------------------
+
+Background color
+---------------
+
+bg-colorclass
+
+
+**Opacity**
+
+
+We can add opacity also to bg color.
+
+bg-opacity-75
+
+bg-opacity-50
+
+bg-opacity-25
+
+bg-opacity-10
+
+<div class="bg-success p-2 text-white bg-opacity-75">This is 75% opacity success background</div>
+
+**subtle**
+
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">.bg-primary-subtle</div>
+
+
+
+5. Borders
+   -------
+
+Add borders to elements:
+-----------------------
+
+border(all)
+border-top
+border-end
+border-bottom
+border-start
+
+Width:
+-----
+
+border border-1
+border border-2
+border border-3
+border border-4
+border border-5
+
+Radius:
+------
+
+rounded(all)
+rounded-top
+rounded-end
+rounded-bottom
+rounded-start
+rounded-circle
+
+
+Radius Sizes:
+------------
+
+For larger or smaller rounded corners. Sizes range from 0 to 5.
+
+rounded-0
+rounded-1
+rounded-2
+rounded-3
+rounded-4
+rounded-5
+
+
+rounded-bottom-1
+rounded-start-2
+rounded-end-circle
+rounded-start-pill
+rounded-5 rounded-top-0
+
+
+Add colors to border:
+--------------------
+
+border-primary
+
+
+
+6.Spacing classes
+  ---------------
+
+m- margin (space outside of an elements)
+p- padding (space within an element)
+
+sides
+----
+t
+e
+b
+s
+x (left & right)
+y (top & bottom)
+
+
+sizes
+-----
+0
+1
+2
+3
+4
+5
+
+***Center an element horizontally with .mx-auto class.
